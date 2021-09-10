@@ -1,6 +1,6 @@
 {
   "name": "sicop-unifier",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Unify CSV rows from SICOP and augment with provider data.",
   "main": "index.js",
   "scripts": {

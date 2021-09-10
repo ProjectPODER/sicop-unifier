@@ -23,8 +23,11 @@ process.stdin
     }))
 
 process.stdin.on('end', () => {
+    let strings = [];
     Object.keys(rows).forEach(function(key) {
-        process.stdout.write( JSON.stringify(rows[key]) + '\n' );
+        let string = JSON.stringify(rows[key]);
+        strings.push( string );
     });
-    process.exit(0);
+
+    process.stdout.write( strings.join('\n') + '\n', process.exit );
 });
