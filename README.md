@@ -8,7 +8,7 @@ Unify CSV rows from SICOP and augment with provider data.
 
 ## Options
 
-    --classifiers   -x  Path to a CSV file containing provider data downloaded from SICOP
+    --classifiers   -x  Path to a CSV file containing provider data downloaded from SICOP (example provided as proveedores.csv)
 
 ## Additional notes
 
