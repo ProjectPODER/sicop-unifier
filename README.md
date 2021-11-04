@@ -12,4 +12,4 @@ Unify CSV rows from SICOP and augment with provider data.
 
 ## Additional notes
 
-The output can be redirected to [transformer-ocds](http://gitlab.rindecuentas.org/equipo-qqw/transformer-ocds) to convert the JSON objects into OCDS documents.
+The output can be redirected to [transformer-ocds](https://github.com/ProjectPODER/transformer-ocds) to convert the JSON objects into OCDS documents.
